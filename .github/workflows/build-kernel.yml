@@ -7,11 +7,11 @@ on:
       KERNEL_SOURCE:
         description: 'Kernel Source'
         required: true
-        default: 'Project-Zephyrus/kernel_xiaomi_sm8250'
+        default: 'VoidUI-Devices/kernel_xiaomi_sm8250'
       KERNEL_SOURCE_BRANCH:
         description: 'Branch'
         required: true
-        default: 'aosp-14'
+        default: 'aosp-13-old'
       KERNEL_DEFCONFIG:
         description: 'Defconfig'
         required: true
