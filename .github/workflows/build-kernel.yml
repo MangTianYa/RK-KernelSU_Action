@@ -7,7 +7,7 @@ on:
       KERNEL_SOURCE:
         description: 'Kernel Source'
         required: true
-        default: 'Project-Zephyrus/kernel_xiaomi_sm8250'
+        default: 'PocoF3Releases/kernel_xiaomi_sm8250'
       KERNEL_SOURCE_BRANCH:
         description: 'Branch'
         required: true
@@ -27,7 +27,7 @@ on:
       CLANG_URL:
         description: 'Clang URL'
         required: true
-        default: 'https://github.com/ZyCromerZ/Clang/releases/download/19.0.0git-20240323-release/Clang-19.0.0git-20240323.tar.gz'
+        default: 'https://github.com/ZyCromerZ/Clang/releases/download/19.0.0git-20240417-release/Clang-19.0.0git-20240417.tar.gz'
       BUILD_EXTRA_COMMAND:
         description: 'Extra build commands(e.g. LLVM=1 LLVM_IAS=1)'
         required: false
